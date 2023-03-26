@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class SignupModule {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Welcome to the sign-up module!");
+
+        System.out.print("Enter your username: ");
+        String username = scanner.nextLine();
+
+        System.out.print("Enter your password: ");
+        String password = scanner.nextLine();
+
+        System.out.print("Enter your email: ");
+        String email = scanner.nextLine();
+
+        // TODO: validate username, password, and email
+
+        System.out.println("Congratulations! You have signed up successfully.");
+    }
+}
